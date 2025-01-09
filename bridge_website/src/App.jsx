@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './App.css'
 import Header from './components/Header';
+import Footer from './components/Footer'
 import About from './pages/about';
 import Home from './pages/Home';
 import Equity from './pages/equity';
@@ -25,6 +26,7 @@ function App() {
         <Route path='/Equity' element={<Equity/>}/>
         <Route path='/Visit' element={<Visit/>}/>
       </Routes> 
+      <Footer/>
     </div>
    
 
