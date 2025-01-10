@@ -6,6 +6,7 @@ import About from './pages/about';
 import Home from './pages/Home';
 import Equity from './pages/equity';
 import Donate from './pages/donate';
+import Support from './pages/Support';
 import {BrowserRouter as Router,
   Routes, Route
 } from 'react-router-dom';
@@ -25,6 +26,7 @@ function App() {
         <Route path='/Donate' element={<Donate/>}/>
         <Route path='/Equity' element={<Equity/>}/>
         <Route path='/Visit' element={<Visit/>}/>
+        <Route path='/Support' element={<Support/>}/>
       </Routes> 
       <Footer/>
     </div>

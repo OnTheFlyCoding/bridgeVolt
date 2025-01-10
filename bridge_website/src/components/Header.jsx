@@ -12,8 +12,8 @@ function Header(){
             </div>
             <div className='navigation border'>
                 <Link to='/About'>About</Link>
-                <Link to='/Donate'>Donate</Link>
-                <Link to='/Equity'>Equity</Link>
+                <a href="https://www.paypal.com/donate/?hosted_button_id=UB9PY2F4RXRRA" target='_blank'>Pronate</a>
+                <Link to='/Support'>Support</Link>
                 <Link to='/Visit'>Visit</Link>
             </div>
         </header>
