@@ -1,3 +1,5 @@
+import firstPic from '../assets/AboutUsBVolt.png';
+import secondPic from '../assets/Meeting.jpg'
 
 function About(){
     return(
@@ -20,7 +22,7 @@ function About(){
             </div>
             <div style={{paddingTop:'2%'}}>
                 <div style={{flex:'1'}}>
-                    <img  style={{padding:'10px', maxWidth:'90%'}} src="http://localhost:5173/AboutUsBVolt.png" alt=""/>
+                    <img  style={{padding:'10px', maxWidth:'90%'}} src={firstPic} alt="About usw"/>
                 </div>
             </div>
             <div style={{backgroundColor:'white', paddingLeft:'10%', paddingRight:'10%'}}>
@@ -47,7 +49,7 @@ function About(){
                         </div>
                     </div>
                     <div style={{width:'50%', paddingTop:'40px', paddingRight:'10%'}}>
-                        <img style={{maxWidth:'100%', height:'auto', filter:'drop-shadow(0px 15px 15px #8b8b8daa) drop-shadow(0px 8px 5px #8b8b8daa)'}} src="http://localhost:5173/MeetingAtBike.jpg" alt="" />
+                        <img style={{maxWidth:'100%', height:'auto', filter:'drop-shadow(0px 15px 15px #8b8b8daa) drop-shadow(0px 8px 5px #8b8b8daa)'}} src={secondPic} alt="MeetingAtBvolt" />
                     </div>
                 </div>
             </div>

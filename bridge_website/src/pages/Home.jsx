@@ -1,11 +1,12 @@
 import ImageSlider from "../features/ImageSlider";
+import transparentBike from '../assets/TransparentBike.png'
 
 function Home(){
     //Declare your list of images
     const slides = [
-        {url: 'http://localhost:5173/bike1.jpg', title: 'bike 1'},
-        {url:'http://localhost:5173/bike2.jpg', title: 'bike 2'},
-        {url: 'http://localhost:5173/MeetingAtBike.jpg', title: 'Meeting'},
+        {url: '/bike1.jpg', title: 'bike 1'},
+        {url:'/bike2.jpg', title: 'bike 2'},
+        {url: '/MeetingAtBike.jpg', title: 'Meeting'},
     ]
     const containerStyles = {
         width: '100%',
@@ -60,7 +61,7 @@ function Home(){
 
                     <h1 style={{backgroundColor:'white',textAlign:'left', paddingLeft:'10%'}}>About The Amplifier Kit</h1>
                     <section style={{position:'relative', padding:'1rem'}}>
-                        <img style={{height:'600px', width:'90%'}} src="http://localhost:5173/TransparentBike.png" alt="" />
+                        <img style={{height:'600px', width:'90%'}} src={transparentBike} alt="" />
                         <div onClick={toggleHandlebar} className="bikeHandle">X</div>
                         <div onClick={toggleController} className="bikeControl">X</div>
                         <div onClick={toggleBms} className="bikeBms">X</div>

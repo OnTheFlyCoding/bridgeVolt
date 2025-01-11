@@ -123,6 +123,9 @@ h1 {
 .rightArr:hover{
   color: white;
 }
+.testing{
+  background-image: url(/bike1.jpg);
+}
 .bikeHandle{
   position: absolute;
   cursor: pointer;
